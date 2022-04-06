@@ -4,6 +4,7 @@
 
 ALB Controller 설치 후 aws annotation을 추가한 Ingress를 적용해야 AWS에 ALB가 작성됨.   
 Public Subnet에 ALB Controller 설치  
+** AWS LBC는 nginx ingress controller 처럼 rewrite-target annotation이 없음.
 
 ### 사전 조건(Prereq)  
 - 1.19 이상 클러스터의 경우 버전 2.4.0 이상을 사용하는 것이 좋다.  
